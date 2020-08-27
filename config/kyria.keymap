@@ -49,7 +49,7 @@
 	&trans    &trans    &trans    &trans    &trans    &trans                                                                           &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans  
 	&trans    &trans    &trans    &trans    &trans    &trans                                                                           &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans  
 	&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans                          &trans             &trans    &trans    &trans    &trans    &trans    &trans    &trans  
-	                              &trans    &trans    &trans    &trans   &trans                           &trans    &trans    &trans    &trans    &trans     
+	                              &trans    &kp ESC   &kp       &trans    &trans                          &trans    &trans    &trans    &trans    &trans     
 			>;
 		};
 	};
