@@ -37,10 +37,10 @@
 
 		nums_layer {
 			bindings = <
-	&kp F11   &kp NUM_1    &kp NUM_2    &kp NUM_3   &kp NUM_4    &kp NUM_5                                                                     &kp NUM_6    &kp NUM_7    &kp NUM_8    &kp NUM_9    &kp KPPLUS   &kp KPSLASH
-	&kp F9    &kp F10    &kp F11  &kp F12   &kp F13  &kp F14                                                                                   &trans       &kp NUM_4  &kp NUM_5    &kp NUM_6   &kp KPPLUS   &kp KPASTERISK
-	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5   &kp F6    &kp F7          &kp F8                    &kp DEL          &trans               &kp NUM_0    &kp NUM_1  &kp NUM_2    &kp NUM_3   &kp KPENTER    &kp KPENTER  
-	                              &trans    &trans    &trans   &mt MOD_LCTL SPC &mt MOD_LALT RET         &mt MOD_RALT BKSP &mt MOD_RCTL SPC     &trans    &trans     &kp NUM_0     
+	&kp F11   &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5                                                                                 &kp NUM_6    &kp NUM_7  &kp NUM_8    &kp NUM_9   &kp KPMINUS    &kp KPSLASH
+	&TRANS   &kp F9   &kp F10   &kp F11     &kp F12    &trans                                                                                    &trans       &kp NUM_4  &kp NUM_5    &kp NUM_6   &kp KPPLUS     &kp KPASTERISK
+	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7          &kp F8                    &kp DEL          &trans               &kp NUM_0    &kp NUM_1  &kp NUM_2    &kp NUM_3   &kp KPENTER    &kp KPENTER  
+	                              &trans    &trans    &trans   &mt MOD_LCTL SPC &mt MOD_LALT RET         &mt MOD_RALT BKSP &mt MOD_RCTL SPC     &trans       &trans     &kp NUM_0     
 			>;
 		};
 		
@@ -49,7 +49,7 @@
 	&trans    &trans    &trans    &trans    &trans    &trans                                                                           &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans  
 	&trans    &trans    &trans    &trans    &trans    &trans                                                                           &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans  
 	&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans                          &trans             &trans    &trans    &trans    &trans    &trans    &trans    &trans  
-	                              &trans    &kp ESC   &kp       &mt MOD_LCTL SPC &mt MOD_LALT RET         &mt MOD_RALT BKSP &mt MOD_RCTL SPC     &trans    &trans    &trans    
+	                              &trans    &kp ESC   &trans       &mt MOD_LCTL SPC &mt MOD_LALT RET         &mt MOD_RALT BKSP &mt MOD_RCTL SPC     &trans    &trans    &trans    
 			>;
 		};
 	};
