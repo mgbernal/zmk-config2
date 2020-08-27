@@ -39,17 +39,17 @@
 			bindings = <
 	&trans   &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5                                                                                 &kp NUM_6    &kp NUM_7  &kp NUM_8    &kp NUM_9   &kp 0x56     &kp 0x54 
 	&trans   &kp F9   &kp F10   &kp F11     &kp F12    &trans                                                                                    &trans       &kp NUM_4  &kp NUM_5    &kp NUM_6   &kp 0x57     &kp 0x55 
-	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7          &kp F8                    &kp DEL          &trans               &kp 0x53     &kp NUM_1  &kp NUM_2    &kp NUM_3   &kp 0x58    &kp 0x58  
+	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7          &kp F8                     &trans          &trans               &kp 0x53     &kp NUM_1  &kp NUM_2    &kp NUM_3   &kp 0x58    &kp 0x58  
 	                              &trans    &trans    &trans    &trans           &trans                  &trans    &trans    &trans    &trans    &NUM_0        
 			>;
 		};
 		
 		text_layer {
 			bindings = <
-	&trans    &trans    &trans    &trans    &trans    &trans                                                                           &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans  
-	&trans    &trans    &trans    &trans    &trans    &trans                                                                           &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans  
-	&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans                          &trans             &trans    &trans    &trans    &trans    &trans    &trans    &trans  
-	                              &trans    &kp ESC   &kp       &trans    &trans                          &trans    &trans    &trans    &trans    &trans     
+	&trans    &trans    &trans    &trans    &trans    &trans                                              &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans  
+	&trans    &trans    &trans    &trans    &trans    &trans                                              &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans  
+	&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans  
+	                              &trans    &kp ESC   &kp       &trans    &trans      &trans    &trans    &trans    &trans    &trans    
 			>;
 		};
 	};
