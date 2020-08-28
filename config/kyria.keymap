@@ -30,8 +30,8 @@
 			bindings = <
 	&kp ESC         &kp Q &kp W &kp E &kp R &kp T                                                                                 &kp Y &kp U  &kp I    &kp O   &kp P    &kp BSLH
 	&kp TAB  &kp A &kp S &kp D &kp F &kp G                                                                                 &kp H &kp J  &kp K    &kp L   &kp SCLN &kp QUOT
-	&kp MOD_LCTL        &kp Z &kp X &kp C &kp V &kp B  &kp HOME           &kp END                 &kp DEL         &kp PGUP           &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp RSFT
-	                    &kp LGUI &kp LBKT &kp RBKT &mt MOD_LSFT  SPC &mt MOD_LALT RET        &mt MOD_RALT BKSP &mt MOD_RCTL SPC  &kp GRAV &tog LAYER_NUMS &kp RALT
+	&kp MOD_LCTL        &kp Z &kp X &kp C &kp V &kp B  &kp HOME           &kp END                 &kp DEL         &kp PGUP           &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp LCTL 
+	                    &kp LGUI &kp LBKT &kp RBKT &mt MOD_LSFT  SPC &mt MOD_LALT RET        &mt MOD_RALT BKSP &mt MOD_LSFT SPC  &kp GRAV &tog LAYER_NUMS &kp RALT
 			>;
 		};
 
