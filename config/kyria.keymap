@@ -46,9 +46,9 @@
 		
 		text_layer {
 			bindings = <
-	&trans    &trans    &trans    &cp M_VOLU     &trans    &trans                                                                           &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans  
-	&trans    &trans    &cp M_PREV     &cp M_PLAY     &cp M_NEXT     &trans                                                                           &trans  &kp LARW  &kp UARW  &kp RARW  &trans    &trans  
-	&trans    &trans    &trans    &cp M_VOLD     &trans    &trans    &trans    &trans                          &trans             &trans    &trans    &trans    &kp DARW     &trans   &trans    &trans  
+	&trans    &trans    &trans    &cp M_VOLU     &trans    &trans                                                                           &kp HOME  &kp PGDN  &kp UARW   &kp END   &trans    &kp PGUP   
+	&trans    &trans    &cp M_PREV     &cp M_PLAY     &cp M_NEXT     &trans                                                                  &trans  &kp LARW  &kp DARW  &kp RARW  &trans    &trans  
+	&trans    &trans    &trans    &cp M_VOLD     &trans    &trans    &trans    &trans                        &trans             &trans    &trans    &trans    &trans     &trans   &trans    &trans  
 	                              &trans    &kp ESC   &kp       &trans    &trans                          &trans    &trans    &trans    &trans    &trans     
 			>;
 		};
