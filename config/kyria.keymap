@@ -1,9 +1,9 @@
 #define DEFAULT 0
 // ---------------------------------------------------------------------------------------------------------------------------------
-// | ESC  |  Q  |  W  |  E   |  R   |  T     |                                                      |    Y    |   U   |  I    |  O   |   P   |   \  |
-// | TAB  |  A  |  S  |  D   |  F   |  G     |                                                      |    H    |   J   |  K    |  L   |   ;   |   '  |
-// | CTRL |  Z  |  X  |  C   |  V   |  B     |  *TEXT        |  END  |      |  DEL  |  *TEXT        |    N    |   M   |  ,    |  .   |   /   | CTRL |
-//                     | GUI  |  [  |  ][alt]|  SPACE [shift]|  RET  |      |  BKSP |  SPACE [shift]|  ` [alt]| *NUMS | R-ALT |
+// | ESC  |  Q  |  W  |  E   |  R  |  T    |                                                      |    Y    |   U   |  I    |  O   |   P   |   \  |
+// | TAB  |  A  |  S  |  D   |  F  |  G    |                                                      |    H    |   J   |  K    |  L   |   ;   |   '  |
+// | CTRL |  Z  |  X  |  C   |  V  |  B    |  *TEXT        |  END  |      |  DEL  |  *TEXT        |    N    |   M   |  ,    |  .   |   /   | CTRL |
+//                    | GUI  |  [  | ][alt]|  SPACE [shift]|  RET  |      |  BKSP |  SPACE [shift]|  ` [alt]| *NUMS | R-ALT |
 
 #define LAYER_NUMS 1 
 // ---------------------------------------------------------------------------------------------------------------------------------
