@@ -19,6 +19,13 @@
 // |       |     |      | V DOWN  |       |      |       |      |            |      |      |      |       |       |     |  HOME |  END  |
 //                      |         |  ESC  |      |       |      |            |      |      |      |       |       |
 
+#define GAME_LAYER 3
+// ---------------------------------------------------------------------------------------------------------------------------------
+// |       |     |      | V UP    |       |      |                                         |      |       |   ↑   |     |       |  PGUP |
+// |       |     | Prev | PLAY    |  Next |      |                                         |      |   ←   |   ↓   |  →  |       |  PGDN |
+// |       |     |      | V DOWN  |       |      |       |      |            |      |      |      |       |       |     |  HOME |  END  |
+//                      |         |  ESC  |      |       |      |            |      |      |      |       |       |
+
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -59,12 +66,18 @@
 		
 		text_layer {
 			bindings = <
-	&trans    &trans    &trans     &cp M_VOLU   &trans     &trans                                                 &trans  &trans    &kp UARW   &trans    &trans    &kp PGUP   
+	&tog GAME_LAYER   &trans    &trans     &cp M_VOLU   &trans     &trans                                                 &trans  &trans    &kp UARW   &trans    &trans    &kp PGUP   
 	&trans    &trans    &cp M_PREV &cp M_PLAY   &cp M_NEXT &trans                                                 &trans  &kp LARW  &kp DARW   &kp RARW  &trans    &kp PGDN  
 	&trans    &trans    &trans     &cp M_VOLD   &trans     &trans    &trans    &trans         &trans    &trans    &trans  &trans    &trans     &trans    &kp HOME  &kp END 
 	                               &trans       &kp ESC    &kp       &trans    &trans         &trans    &trans    &trans  &trans    &trans     
 			>; 
-			
+		game_layer {
+			bindings = <
+	&trans   &trans  &kp Q &kp E &kp R &kp T                                           &kp NUM_6  &kp NUM_7  &kp NUM_8    &kp NUM_9   &kp NUM_0    &kp MINUS  
+	&trans   &kp F8    &kp A    &kp W    &kp D  &kp F                                             &kp KDIV   &kp NUM_4  &kp NUM_5    &kp NUM_6   &kp KMLT     &kp KPLS  
+	&trans   &trans   &kp Z   &kp X   C &kp V   &kp B   &trans  &trans         &trans    &trans   &kp EQL    &kp NUM_1  &kp NUM_2    &kp NUM_3   &kp CMMA     &kp RET   
+	                   &trans    &trans    &trans    &trans    &trans  &trans         &trans    &trans   &trans     &kp NUM_0     
+			>;	
 
 		};
 	};
