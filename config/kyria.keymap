@@ -78,7 +78,7 @@
 	&trans   &trans  &kp Q     &kp E    &kp R   &kp T                                             &kp Y         &kp U          &kp I    &kp O   &kp P    &kp BSLH
 	&trans    &kp LSFT    &kp A   &kp W    &kp D   &kp F                                               &kp H         &kp J          &kp K    &kp L   &kp SCLN &kp QUOT
 	&trans   &trans   &kp Z    &kp S    &kp C   &kp V    &kp NUM_4  &trans                &kp DEL  &mo LAYER_TEXT &kp N         &kp M          &kp CMMA &kp DOT &kp FSLH &kp LCTL   
-	                   &kp NUM_1  &kp NUM_2    &kp NUM_3    &kp SPC   &kp SPC  &kp RET          &trans    &trans   &trans     &kp NUM_0     
+	                   &kp NUM_1  &kp NUM_2    &kp NUM_3    &kp SPC    &kp RET  &kp RET          &trans    &trans   &trans     &kp NUM_0     
 			>;	
                  
 		};
