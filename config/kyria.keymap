@@ -71,6 +71,8 @@
 	&trans    &trans    &trans     &cp M_VOLD   &trans     &trans    &trans    &trans         &trans    &trans    &trans  &trans    &trans     &trans    &kp HOME  &kp END 
 	                               &trans       &kp ESC    &kp       &trans    &trans         &trans    &trans    &trans  &trans    &trans     
 			>; 
+		 };
+			
 		game_layer {
 			bindings = <
 	&trans   &trans  &kp Q     &kp E    &kp R   &kp T                                              &trans     &trans  &kp NUM_8    &kp NUM_9   &kp NUM_0    &kp MINUS  
@@ -78,7 +80,7 @@
 	&trans   &trans   &kp Z    &kp X    &kp C   &kp V   &trans  &trans         &trans    &trans      &trans    &kp NUM_1  &kp NUM_2    &kp NUM_3   &kp CMMA     &kp RET   
 	                   &trans    &trans    &trans    &trans    &trans  &trans         &trans    &trans   &trans     &kp NUM_0     
 			>;	
-                   };
+                 
 		};
 	};
 };
