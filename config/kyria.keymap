@@ -21,7 +21,7 @@
 
 #define GAME_LAYER 3
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |       |     |      | V UP    |       |      |                                         |      |       |   ↑   |     |       |  PGUP |
+// |       |     |      | V UP    |       |      |                                         | INS  |       |   ↑   |     |       |  PGUP |
 // |       |     | Prev | PLAY    |  Next |      |                                         |      |   ←   |   ↓   |  →  |       |  PGDN |
 // |       |     |      | V DOWN  |       |      |       |      |            |      |      |      |       |       |     |  HOME |  END  |
 //                      |         |  ESC  |      |       |      |            |      |      |      |       |       |
@@ -66,7 +66,7 @@
 		
 		text_layer {
 			bindings = <
-	&tog GAME_LAYER   &trans    &trans     &cp M_VOLU   &trans     &trans                                                 &trans  &trans    &kp UARW   &trans    &trans    &kp PGUP   
+	&tog GAME_LAYER   &trans    &trans     &cp M_VOLU   &trans     &trans                                                 &kp INS   &trans    &kp UARW   &trans    &trans    &kp PGUP   
 	&trans    &trans    &cp M_PREV &cp M_PLAY   &cp M_NEXT &trans                                                 &trans  &kp LARW  &kp DARW   &kp RARW  &trans    &kp PGDN  
 	&trans    &trans    &trans     &cp M_VOLD   &trans     &trans    &trans    &trans         &trans    &trans    &trans  &trans    &trans     &trans    &kp HOME  &kp END 
 	                               &trans       &kp ESC    &kp       &trans    &trans         &trans    &trans    &trans  &trans    &trans     
