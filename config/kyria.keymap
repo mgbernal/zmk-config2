@@ -29,6 +29,8 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
 
 / {
   behaviors {
@@ -68,7 +70,7 @@
 			bindings = <
 	&tog GAME_LAYER   &trans    &trans     &cp M_VOLU   &trans     &trans                                                 &kp INS   &trans    &kp UARW   &trans    &trans    &kp PGUP   
 	&trans    &trans    &cp M_PREV &cp M_PLAY   &cp M_NEXT &trans                                                 &trans  &kp LARW  &kp DARW   &kp RARW  &trans    &kp PGDN  
-	&trans    &trans    &trans     &cp M_VOLD   &trans     &trans    &trans    &trans         &trans    &trans    &trans  &trans    &trans     &trans    &kp HOME  &kp END 
+	&bt BT_CLR    &trans    &trans     &cp M_VOLD   &trans     &trans    &trans    &trans         &trans    &trans    &trans  &trans    &trans     &trans    &kp HOME  &kp END 
 	                               &trans       &kp ESC    &kp       &trans    &trans         &trans    &trans    &trans  &trans    &trans     
 			>; 
 		 };
