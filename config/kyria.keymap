@@ -52,7 +52,7 @@
 
 		default_layer {
 			bindings = <
-	&kp &gresc  &kp Q &kp W &kp E &kp R &kp T                                                               &kp Y         &kp U          &kp I    &kp O   &kp P    &kp BSLH
+	&gresc  &kp Q &kp W &kp E &kp R &kp T                                                               &kp Y         &kp U          &kp I    &kp O   &kp P    &kp BSLH
 	&kp TAB  &kp A &kp S &kp D &kp F &kp G                                                               &kp H         &kp J          &kp K    &kp L   &kp SEMI &kp SQT
 	&kp LCTL &kp Z &kp X &kp C &kp V &kp B         &mo LAYER_TEXT   &mt LC(C)  LC(V)  &kp DEL  &mo LAYER_TEXT &kp N         &kp M          &kp CMMA &kp DOT &kp FSLH &kp LCTL 
 	               &kp LGUI &kp LBKT &mt LALT RBKT &mt LSHFT SPACE   &kp RET       	 &kp BSPC &mt RSFT SPACE   &mt RALT GRAV &mo LAYER_NUMS &kp RGUI
